@@ -18,3 +18,4 @@ Description:
  
 ![alt text](https://github.com/Nemat-Allah-Aloush/Cinema-Reservation-System/blob/main/imgs/Database%20schema.png " Database schema")
 
+## Project Architecture
