@@ -19,3 +19,11 @@ Description:
 ![alt text](https://github.com/Nemat-Allah-Aloush/Cinema-Reservation-System/blob/main/imgs/Database%20schema.png " Database schema")
 
 ## Project Architecture
+The application consists of the following layers:
+- Database layer. In this layer all the tables shown in the previous figure aill be created, besides some stored functions and stored procedures.
+- A layer to build connection with the database: "connectionBuilder".
+- A class that calls the stored procedures and functions in a correct way: "QueryBuilder".
+- Classes Layer: Each table in the database structure has a corresponding class containing variables corresponding to the table variables.
+- GateWays Layer: Within this layer there are several classGateway, each of which deals with the corresponding class, in which a request is made to invoke functions that can be used to find/modify a specific data within the "QueryBuilder" and "connectionBuilder" to create a connection with the database.
+- Both the Classes layer and the GateWays Layer are called the Data Access Layer.
+- The forums layer that calls the functions of the GateWays classes to transform information between the user in the upper layer and the database in the last layer.
