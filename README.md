@@ -27,3 +27,7 @@ The application consists of the following layers:
 - GateWays Layer: Within this layer there are several classGateway, each of which deals with the corresponding class, in which a request is made to invoke functions that can be used to find/modify a specific data within the "QueryBuilder" and "connectionBuilder" to create a connection with the database.
 - Both the Classes layer and the GateWays Layer are called the Data Access Layer.
 - The forums layer that calls the functions of the GateWays classes to transform information between the user in the upper layer and the database in the last layer.
+
+--
+
+Note: The project with developed within a team of two.
