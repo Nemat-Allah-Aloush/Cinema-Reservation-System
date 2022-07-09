@@ -28,6 +28,6 @@ The application consists of the following layers:
 - Both the Classes layer and the GateWays Layer are called the Data Access Layer.
 - The forums layer that calls the functions of the GateWays classes to transform information between the user in the upper layer and the database in the last layer.
 
---
+---
 
 Note: The project with developed within a team of two.
