@@ -4,7 +4,7 @@ An academic project at HIAST aimed to build a cinema reservation system. The pro
 ## Index
 1. [About the project](#about-the-project)
 2. [Database schema](#database-schema)
-4. [Project Architecture](#Project-architecture)
+3. [Project Architecture](#Project-architecture)
 
 ---
 
