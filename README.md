@@ -1,6 +1,13 @@
 # Cinema-Reservation-System
 An academic project at HIAST aimed to build a cinema reservation system. The project is written in C# programing language and Oracle Database. 
 
+## Index
+1. [About the project](#about-the-project)
+2. [Database schema](#database-schema)
+4. [Project Architecture](#Project-architecture)
+
+---
+
 ## About the project
 The project aims to develope a software reservation system that manages and stores all operations related to the cinema house, including hall information, movies,
 show times, and others. Which helps later to obtain useful statistics for the development of work.
